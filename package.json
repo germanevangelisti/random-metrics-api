@@ -1,0 +1,27 @@
+{
+  "name": "random-metrics-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd ../challenge-app && yarn start",
+    "server": "nodemon --exec babel-node server.js",
+    "start": "cross-env NODE_ENV=development concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "concurrently": "^5.3.0",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "web-push": "^3.4.4"
+  }
+}
