@@ -2,31 +2,29 @@
     {
        "_id":"5f31ddd5d286c5b876d5a25c",
        "CPU":"77",
-       "Memory":"41",
+       "memory":"41",
        "FS_Usage":"88",
-       "Name":"cooper"
+       "name":"Server n1"
     },
     {
-       "Name":"sam",
+      "_id":"87fsdjn32se2dcsadc8ad0aac",
+       "name":"Server n2",
        "CPU":"9",
-       "Memory":"88",
-       "FS_Usage":"33",
-       "__v":0
+       "memory":"88",
+       "FS_Usage":"33"
     },
     {
        "_id":"5f31e97b79cbf467c8ad0aac",
-       "Name":"fisher",
+       "name":"Server n3",
        "CPU":"3",
        "Memory":"64",
-       "FS_Usage":"46",
-       "__v":0
+       "FS_Usage":"46"
     },
     {
        "_id":"5f31ef46d0bcae7228ed3c8f",
-       "Name":"Fred",
+       "name":"Server n4",
        "CPU":"86",
-       "Memory":"72",
-       "FS_Usage":"48",
-       "__v":0
+       "memory":"72",
+       "FS_Usage":"48"
     }
  ]

@@ -1,5 +1,5 @@
-var mongoose = require('mongoose')
-var Schema = mongoose.Schema
+var mongoose = require("mongoose");
+var Schema = mongoose.Schema;
 
 var alertSchema = new Schema(
   {
@@ -15,6 +15,6 @@ var alertSchema = new Schema(
   }
 );
 
-var Alert = mongoose.model('Alert', alertSchema)
+var Alert = mongoose.model("Alert", alertSchema);
 
-module.exports = Alert
+module.exports = Alert;
